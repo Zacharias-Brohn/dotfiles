@@ -1,0 +1,51 @@
+# -----------------------------------------------------
+# CUSTOMIZATION
+# -----------------------------------------------------
+
+# -----------------------------------------------------
+# oh-myzsh plugins
+# -----------------------------------------------------
+plugins=(
+    git
+    sudo
+    web-search
+    archlinux
+    zsh-autosuggestions
+    zsh-syntax-highlighting
+    fast-syntax-highlighting
+    copyfile
+    copybuffer
+    dirhistory
+    command-not-found
+    conda-env
+    cp
+    copypath
+    extract
+    tldr
+    universalarchive
+)
+
+# Set-up oh-my-zsh
+source $ZSH/oh-my-zsh.sh
+
+# -----------------------------------------------------
+# Set-up FZF key bindings (CTRL R for fuzzy history finder)
+# -----------------------------------------------------
+source <(fzf --zsh)
+
+# zsh history
+HISTFILE=~/.zsh_history
+HISTSIZE=10000
+SAVEHIST=10000
+setopt appendhistory
+
+# -----------------------------------------------------
+# oh-my-posh prompt
+# -----------------------------------------------------
+# Custom Theme
+eval "$(oh-my-posh init zsh --config ~/.config/ohmyposh/.microverse.omp.json)"
+
+# Precmd to set cursor to beam
+precmd() {
+    echo -ne "\e[6 q"
+}

@@ -1,0 +1,29 @@
+# -----------------------------------------------------
+# ALIASES
+# -----------------------------------------------------
+
+# -----------------------------------------------------
+# General
+# -----------------------------------------------------
+alias clear='clear && fastfetch'
+alias c='clear'
+alias cp='cpv'
+alias v='nvim'
+alias vim='$EDITOR'
+alias reboot="hyprshutdown --post-cmd 'systemctl reboot'"
+
+# -----------------------------------------------------
+# Vencord Installer
+# -----------------------------------------------------
+vencord() {
+    zsh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
+}
+
+# -----------------------------------------------------
+# Custom
+# -----------------------------------------------------
+alias p='python3'
+
+
+alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
+alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
