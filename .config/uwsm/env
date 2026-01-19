@@ -1,0 +1,63 @@
+# Cursor
+export XCURSOR_THEME=BreezeX-RosePine-Linux
+export XCURSOR_SIZE=28
+
+# QT
+export QT_QPA_PLATFORM="wayland;xcb"
+export QT_QPA_PLATFORMTHEME=qt6ct
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+
+# GDK
+export GDK_SCALE=1
+
+# Toolkit Backend
+export GDK_BACKEND="wayland,x11,*"
+export CLUTTER_BACKEND=wayland
+
+# Mozilla
+export MOZ_ENABLE_WAYLAND=1
+export MOZ_DISABLE_RDD_SANDBOX=1
+
+# Disable appimage launcher by default
+export APPIMAGELAUNCHER_DISABLE=1
+
+# Ozone
+export OZONE_PLATFORM=wayland
+export ELECTRON_OZONE_PLATFORM_HINT=auto
+
+# WLR
+export WLR_RENDERER_ALLOW_SOFTWARE=1
+
+# Java
+export _JAVA_AWT_WM_NONREPARENTING=1
+
+# SDL
+export SDL_VIDEODRIVER=wayland
+
+# HuggingFace Cache
+export HF_HOME="/mnt/IronWolf/KoboldCPP/HuggingFaceCache"
+
+# Keyboard Layout
+export XKB_DEFAULT_LAYOUT=se
+export XKB_DEFAULT_OPTIONS=caps:swapescape
+
+# NVIDIA Video Acceleration
+export GBM_BACKEND=nvidia-drm
+export NVD_BACKEND=direct
+export LIBVA_DRIVER_NAME=nvidia
+export __GLX_VENDOR_LIBRARY_NAME=nvidia
+export EGL_PLATFORM=wayland
+# export __GL_GSYNC_ALLOWED=0
+# export __GL_VRR_ALLOWED=0
+
+export __GL_SHADER_DISK_CACHE_SIZE=12000000000
+
+# Go
+export GOBIN="/home/zach/.config/goinstall/bin"
+export PATH="$PATH:$(go env GOBIN)"
+
+# Pip Cache
+export PIP_NO_CACHE_DIR=1
+
+# Uncrustify
+export UNCRUSTIFY_CONFIG=$HOME/.config/uncrustify/config.cfg
