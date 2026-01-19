@@ -1,0 +1,48 @@
+{
+  "appCount": 23,
+  "wallpaperPath": "/mnt/IronWolf/SDImages/SWWW_Wals/",
+  "maxWallpapers": 7,
+  "wallust": true,
+  "gpuType": "nvidia",
+  "useDynamicColors": true,
+  "animScale": 0.8,
+
+  "accentColor": {
+    "accents": {
+      "primary": "#e03134",
+      "primaryAlt": "#e06d6f",
+      "warning": "#7e09c6",
+      "warningAlt": "#a33af0"
+    }
+  },
+
+  "background": {
+    "wallFadeDuration": 300,
+    "enabled": true
+  },
+
+  "transparency": {
+    "enabled": true,
+    "base": 0.75,
+    "layer": 0.4
+  },
+
+  "idle": {
+    "timeouts": [
+      {
+        "timeout": 300,
+        "idleAction": "lock"
+      },
+      {
+        "timeout": 360,
+        "idleAction": "dpms off",
+        "activeAction": "dpms on"
+      }
+    ]
+  },
+
+  "lock": {
+    "fixLockScreen": true,
+    "useWallpaper": true
+  }
+}
