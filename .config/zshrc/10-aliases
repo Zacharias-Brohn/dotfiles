@@ -24,6 +24,7 @@ vencord() {
 # -----------------------------------------------------
 alias p='python3'
 
+# alias cat='ccat'
+# alias less='cless'
 
-alias dot='/usr/bin/git --git-dir=$HOME/.dotfiles/ --work-tree=$HOME'
-alias dotfiles='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+alias dot='python3 ~/.dotfiles/sync.py'

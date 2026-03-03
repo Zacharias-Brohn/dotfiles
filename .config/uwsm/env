@@ -14,6 +14,9 @@ export GDK_SCALE=1
 export GDK_BACKEND="wayland,x11,*"
 export CLUTTER_BACKEND=wayland
 
+# wezterm
+export WEZTERM_CONFIG_FILE="$XDG_CONFIG_HOME/wezterm/wezterm.lua"
+
 # Mozilla
 export MOZ_ENABLE_WAYLAND=1
 export MOZ_DISABLE_RDD_SANDBOX=1
@@ -50,7 +53,7 @@ export EGL_PLATFORM=wayland
 # export __GL_GSYNC_ALLOWED=0
 # export __GL_VRR_ALLOWED=0
 
-export __GL_SHADER_DISK_CACHE_SIZE=12000000000
+export __GL_SHADER_DISK_CACHE_SIZE=36000000000
 
 # Go
 export GOBIN="/home/zach/.config/goinstall/bin"

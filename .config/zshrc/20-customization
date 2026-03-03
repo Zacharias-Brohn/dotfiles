@@ -23,7 +23,12 @@ plugins=(
     extract
     tldr
     universalarchive
+	# colorize
+	colored-man-pages
 )
+
+# export ZSH_COLORIZE_TOOL=chroma
+# export ZSH_COLORIZE_CHROMA_FORMATTER=terminal8
 
 # Set-up oh-my-zsh
 source $ZSH/oh-my-zsh.sh
