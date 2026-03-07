@@ -1,4 +1,4 @@
-(cat ~/.cache/wallust/sequences)
+(cat ~/.cache/zshell/sequences)
 
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv zsh)"
 
