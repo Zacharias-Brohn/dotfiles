@@ -19,6 +19,9 @@ vencord() {
     zsh -c "$(curl -sS https://raw.githubusercontent.com/Vendicated/VencordInstaller/main/install.sh)"
 }
 
+equicord() {
+	zsh -c "$(curl -sS https://raw.githubusercontent.com/Equicord/Equicord/refs/heads/main/misc/install.sh)"
+}
 # -----------------------------------------------------
 # Custom
 # -----------------------------------------------------

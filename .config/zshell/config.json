@@ -1,0 +1,437 @@
+{
+    "barConfig": {
+        "autoHide": false,
+        "hideWhenNotif": true,
+        "rounding": 14,
+        "border": 2,
+        "height": 24,
+        "popouts": {
+            "tray": true,
+            "audio": true,
+            "activeWindow": true,
+            "resources": true,
+            "clock": true,
+            "network": false,
+            "upower": true
+        },
+        "entries": [
+            {
+                "enabled": true,
+                "id": "workspaces"
+            },
+            {
+                "enabled": true,
+                "id": "audio"
+            },
+            {
+                "enabled": true,
+                "id": "media"
+            },
+            {
+                "enabled": true,
+                "id": "resources"
+            },
+            {
+                "enabled": true,
+                "id": "updates"
+            },
+            {
+                "enabled": false,
+                "id": "dash"
+            },
+            {
+                "enabled": true,
+                "id": "spacer"
+            },
+            {
+                "enabled": true,
+                "id": "activeWindow"
+            },
+            {
+                "enabled": true,
+                "id": "spacer"
+            },
+            {
+                "enabled": true,
+                "id": "hyprsunset"
+            },
+            {
+                "enabled": true,
+                "id": "tray"
+            },
+            {
+                "enabled": false,
+                "id": "network"
+            },
+            {
+                "enabled": true,
+                "id": "upower"
+            },
+            {
+                "enabled": true,
+                "id": "clock"
+            },
+            {
+                "enabled": true,
+                "id": "notifBell"
+            }
+        ]
+    },
+    "lock": {
+        "recolorLogo": false,
+        "enableFprint": true,
+        "maxFprintTries": 3,
+        "blurAmount": 10,
+        "sizes": {
+            "heightMult": 0.7,
+            "ratio": 1.78,
+            "centerWidth": 600
+        }
+    },
+    "general": {
+        "logo": "",
+        "wallpaperPath": "/mnt/IronWolf/SDImages/SWWW_Wals/",
+        "desktopIcons": true,
+        "dateFormat": "dddd d MMM - hh:mm:ss",
+        "color": {
+            "mode": "dark",
+            "smart": false,
+            "scheduleDark": true,
+            "scheduleHyprsunset": true,
+            "scheduleHyprsunsetStart": 20,
+            "hyprsunsetTemp": 2600,
+            "scheduleHyprsunsetEnd": 11,
+            "schemeGeneration": true,
+            "scheduleDarkStart": 12,
+            "scheduleDarkEnd": 12,
+            "neovimColors": false
+        },
+        "apps": {
+            "terminal": [
+                "wezterm"
+            ],
+            "audio": [
+                "pavucontrol"
+            ],
+            "playback": [
+                "mpv"
+            ],
+            "explorer": [
+                "thunar"
+            ]
+        },
+        "idle": {
+            "timeouts": [
+                {
+                    "idleAction": "lock",
+                    "name": "Lock",
+                    "timeout": 180
+                },
+                {
+                    "activeAction": "dpms on",
+                    "idleAction": "dpms off",
+                    "name": "Screen",
+                    "timeout": 300
+                }
+            ]
+        }
+    },
+    "services": {
+        "weatherLocation": "",
+        "updates": true,
+        "useFahrenheit": false,
+        "ddcutilService": true,
+        "useTwelveHourClock": true,
+        "gpuType": "NVIDIA",
+        "audioIncrement": 0.1,
+        "brightnessIncrement": 0.1,
+        "maxVolume": 1,
+        "defaultPlayer": "Spotify",
+        "playerAliases": [
+            {
+                "from": "com.github.th_ch.youtube_music",
+                "to": "YT Music"
+            }
+        ],
+        "visualizerBars": 50
+    },
+    "notifs": {
+        "expire": true,
+        "defaultExpireTimeout": 5000,
+        "appNotifCooldown": 0,
+        "clearThreshold": 0.3,
+        "expandThreshold": 20,
+        "actionOnClick": false,
+        "groupPreviewNum": 5,
+        "sizes": {
+            "width": 400,
+            "image": 41,
+            "badge": 20
+        }
+    },
+    "sidebar": {
+        "enabled": true,
+        "sizes": {
+            "width": 520
+        }
+    },
+    "utilities": {
+        "enabled": true,
+        "maxToasts": 4,
+        "sizes": {
+            "width": 430,
+            "toastWidth": 430
+        },
+        "toasts": {
+            "configLoaded": true,
+            "chargingChanged": true,
+            "gameModeChanged": true,
+            "dndChanged": true,
+            "audioOutputChanged": true,
+            "audioInputChanged": true,
+            "capsLockChanged": true,
+            "numLockChanged": true,
+            "kbLayoutChanged": true,
+            "vpnChanged": true,
+            "nowPlaying": false
+        },
+        "vpn": {
+            "enabled": false,
+            "provider": [
+                "netbird"
+            ]
+        }
+    },
+    "dashboard": {
+        "enabled": true,
+        "mediaUpdateInterval": 500,
+        "resourceUpdateInterval": 1000,
+        "dragThreshold": 50,
+        "performance": {
+            "showBattery": false,
+            "showGpu": true,
+            "showCpu": true,
+            "showMemory": true,
+            "showStorage": true,
+            "showNetwork": true
+        },
+        "sizes": {
+            "tabIndicatorHeight": 3,
+            "tabIndicatorSpacing": 5,
+            "infoWidth": 200,
+            "infoIconSize": 25,
+            "dateTimeWidth": 110,
+            "mediaWidth": 200,
+            "mediaProgressSweep": 180,
+            "mediaProgressThickness": 8,
+            "resourceProgessThickness": 10,
+            "weatherWidth": 250,
+            "mediaCoverArtSize": 150,
+            "mediaVisualiserSize": 80,
+            "resourceSize": 200
+        }
+    },
+    "appearance": {
+        "rounding": {
+            "scale": 1
+        },
+        "spacing": {
+            "scale": 1
+        },
+        "padding": {
+            "scale": 1
+        },
+        "deform": {
+            "scale": 0.5
+        },
+        "font": {
+            "family": {
+                "sans": "SegoeUI Variable",
+                "mono": "SegoeUI Variable",
+                "material": "Material Symbols Rounded",
+                "clock": "Rubik"
+            },
+            "size": {
+                "scale": 1
+            }
+        },
+        "anim": {
+            "mediaGifSpeedAdjustment": 300,
+            "sessionGifSpeed": 0.7,
+            "durations": {
+                "scale": 1
+            }
+        },
+        "transparency": {
+            "enabled": true,
+            "base": 0.75,
+            "layers": 0.4
+        }
+    },
+    "osd": {
+        "enabled": true,
+        "hideDelay": 3000,
+        "enableBrightness": true,
+        "enableMicrophone": true,
+        "allMonBrightness": false,
+        "sizes": {
+            "sliderWidth": 30,
+            "sliderHeight": 150
+        }
+    },
+    "background": {
+        "wallFadeDuration": 300,
+        "enabled": true,
+        "alignX": 1,
+        "alignY": 0.5,
+        "zoom": 1
+    },
+    "launcher": {
+        "maxAppsShown": 18,
+        "maxWallpapers": 7,
+        "uwsm": true,
+        "actionPrefix": "<",
+        "specialPrefix": "@",
+        "useFuzzy": {
+            "apps": false,
+            "actions": false,
+            "schemes": false,
+            "variants": false,
+            "wallpapers": false
+        },
+        "sizes": {
+            "itemWidth": 600,
+            "itemHeight": 50,
+            "wallpaperWidth": 280,
+            "wallpaperHeight": 200
+        },
+        "actions": [
+            {
+                "command": [
+                    "autocomplete",
+                    "calc"
+                ],
+                "dangerous": false,
+                "description": "Do simple math equations",
+                "enabled": true,
+                "icon": "calculate",
+                "name": "Calculator"
+            },
+            {
+                "command": [
+                    "setMode",
+                    "light"
+                ],
+                "dangerous": false,
+                "description": "Change to light mode",
+                "enabled": true,
+                "icon": "light_mode",
+                "name": "Light"
+            },
+            {
+                "command": [
+                    "setMode",
+                    "dark"
+                ],
+                "dangerous": false,
+                "description": "Change to dark mode",
+                "enabled": true,
+                "icon": "dark_mode",
+                "name": "Dark"
+            },
+            {
+                "command": [
+                    "autocomplete",
+                    "wallpaper"
+                ],
+                "dangerous": false,
+                "description": "Change the current wallpaper",
+                "enabled": true,
+                "icon": "image",
+                "name": "Wallpaper"
+            },
+            {
+                "command": [
+                    "autocomplete",
+                    "variant"
+                ],
+                "dangerous": false,
+                "description": "Change the current scheme variant",
+                "enabled": true,
+                "icon": "colors",
+                "name": "Variant"
+            },
+            {
+                "command": [
+                    "systemctl",
+                    "poweroff"
+                ],
+                "dangerous": true,
+                "description": "Shutdown the system",
+                "enabled": true,
+                "icon": "power_settings_new",
+                "name": "Shutdown"
+            },
+            {
+                "command": [
+                    "systemctl",
+                    "reboot"
+                ],
+                "dangerous": true,
+                "description": "Reboot the system",
+                "enabled": true,
+                "icon": "cached",
+                "name": "Reboot"
+            },
+            {
+                "command": [
+                    "loginctl",
+                    "terminate-user",
+                    ""
+                ],
+                "dangerous": true,
+                "description": "Log out of the current session",
+                "enabled": true,
+                "icon": "logout",
+                "name": "Logout"
+            },
+            {
+                "command": [
+                    "loginctl",
+                    "lock-session"
+                ],
+                "dangerous": false,
+                "description": "Lock the current session",
+                "enabled": true,
+                "icon": "lock",
+                "name": "Lock"
+            },
+            {
+                "command": [
+                    "systemctl",
+                    "suspend-then-hibernate"
+                ],
+                "dangerous": false,
+                "description": "Suspend then hibernate",
+                "enabled": true,
+                "icon": "bedtime",
+                "name": "Sleep"
+            }
+        ]
+    },
+    "colors": {
+        "schemeType": "content"
+    },
+    "dock": {
+        "enable": true,
+        "height": 80,
+        "hoverToReveal": false,
+        "pinnedApps": [
+            "com.ayugram.desktop",
+            "librewolf",
+            "com.obsproject.studio"
+        ],
+        "pinnedOnStartup": false,
+        "ignoredAppRegexes": []
+    }
+}

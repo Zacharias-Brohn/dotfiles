@@ -30,7 +30,7 @@ function M.setup(config, wezterm)
 		},
 	}
 
-	config.enable_wayland = true
+	config.enable_wayland = false
 
 	config.font = wezterm.font("0xProto Nerd Font Mono")
 	config.font_size = 12.0
